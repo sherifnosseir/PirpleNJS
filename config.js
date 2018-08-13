@@ -11,12 +11,6 @@ environments.staging = {
 	'http_port': 3000,
 	'https_port': 3001,
 	'envName': 'staging',
-	'hashingSecret': 'stagingSecret',
-
-	'twilio' : {
-    	'accountSid' : 'ACb32d411ad7fe886aac54c665d25e5c5d',
-    	'authToken' : '9455e3eb3109edc12e3d8c92768f7a67',
-    	'fromPhone' : '+15005550006'
   	}
 	
 };
@@ -26,12 +20,6 @@ environments.production = {
 	'http_port': 5000,
 	'https_port': 5001,
 	'envName': 'production',
-	'hashingSecret': 'productionSecret',
-
-	'twilio': {
-		'accountSid': '',
-		'authToken': '',
-		'fromPhone': ''
 	}
 };
 
